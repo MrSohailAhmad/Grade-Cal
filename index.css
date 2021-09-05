@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+* {
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background: linear-gradient(45deg, #e66465, #9198e5);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.section {
+  background: #3d3c3e;
+  border: none;
+  width: 650px;
+  height: 350px;
+  padding: 30px;
+  box-sizing: border-box;
+
+  /*  */
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  /*  */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left-side {
+  border-left: 2px solid #fff;
+  padding: 15px;
+}
+.text {
+  color: #fff;
+}
+/* right side section css start from here */
+.input-box {
+  padding: 0.5em;
+}
+.input {
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 1px solid #fff;
+  padding: 0.4rem;
+  color: #fff;
+}
+
+.subBtn {
+  border: none;
+  background: #3dbfb0;
+  color: #fff;
+  float: right;
+  font-size: 0.9em;
+  font-weight: 500;
+  margin: 10px;
+  padding: 5px 15px;
+  cursor: pointer;
+  /*  */
+  border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -ms-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+}
+.result-text {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 550;
+}

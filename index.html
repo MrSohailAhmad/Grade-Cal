@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>GRADE-CAL</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="section">
+        <div class="left-side">
+          <div class="box">
+            <h2 class="text">
+              STUDENT GRADE <br />
+              CALCULATER
+            </h2>
+          </div>
+        </div>
+        <div class="right-side">
+          <section class="r-section">
+            <div class="input-box">
+              <input
+                type="text"
+                class="input"
+                id="oop"
+                placeholder="Object Orianted Pro"
+              />
+            </div>
+            <!--  -->
+            <div class="input-box">
+              <input
+                type="text"
+                class="input"
+                id="data_str"
+                placeholder="Data Structure"
+              />
+            </div>
+            <!--  -->
+            <div class="input-box">
+              <input
+                type="text"
+                class="input"
+                id="algo"
+                placeholder="Algorithem"
+              />
+            </div>
+            <!--  -->
+            <div class="input-box">
+              <input
+                type="text"
+                class="input"
+                id="os"
+                placeholder="Oprating Sys"
+              />
+            </div>
+            <!--  -->
+            <div class="input-box">
+              <input
+                type="text"
+                class="input"
+                id="final_pro"
+                placeholder="final Project"
+              />
+            </div>
+            <!-- for btn -->
+            <div class="input-btn">
+              <input
+                type="button"
+                class="subBtn"
+                value="Calculate"
+                onclick="calcy()"
+              />
+            </div>
+          </section>
+        </div>
+      </div>
+      <p class="result-text" id="result"></p>
+    </div>
+    <!-- for custom javascript code -->
+    <script src="index.js"></script>
+  </body>
+</html>
